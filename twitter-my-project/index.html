@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login on Twitter</title>
+    <style>
+        html{
+            font-family: "Segoe UI",Arial,sans-serif;
+        }
+        body{
+            background-color: rgb(230,236,240);
+            margin-top: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .header{
+            padding: 15px;
+            background-color: rgb(204,214,221);
+            margin-top: 0px;
+        }
+        .headertext{
+            margin-left: 400px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(29,161,242);
+        }
+        .nav{
+            background-color: white;
+            /* height: 35px; */
+            padding: 10px;
+            border-bottom: 1px solid black;
+        }
+        .navcontent{
+            display: inline;
+        }
+        .home{
+            color: rgb(102,117,127);
+            font-weight: bold;
+            margin-right: 20px;
+            margin-left: 600px;
+            text-decoration: none;
+        }
+        .home:hover{
+            color: rgb(28,148,224);
+            border-bottom: 2px solid rgb(28,148,224);
+        }
+        .about{
+            color: rgb(102,117,127);
+            font-weight: bold;
+            margin-right: 580px;
+            text-decoration: none;
+        }
+        .about:hover{
+            color: rgb(28,148,224);
+            border-bottom: 2px solid rgb(28,148,224);
+        }
+        .logout{
+            color: rgb(102,117,127);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        /* .content{
+            margin-top: 10px;
+            background-color: rgb(230,236,240);
+            display:grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12, 1fr);
+        }
+        .box1{
+            grid-column-start: 5;
+            grid-column-end: 9;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            background-color: white;
+        } */
+        .contentbox{
+            margin-left: 600px;
+            margin-top: 15px;
+            width: 837px;
+            height: 329px;
+            background-color: white;
+        }
+        .contentboxtitle{
+            margin-left: 100px;
+        }
+        .input1[type=text]{
+            margin-left: 100px;
+            width: 300px;
+            padding: 2px;
+        }
+        .input2[type=password]{
+            margin-left: 100px;
+            width: 300px;
+            padding: 2px;
+        }
+        .btn1{
+            margin-left: 100px;
+            margin-top: 20px;
+            background-color: rgb(28,148,224);
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 10px 15px;
+        }
+        .contentboxfooter{
+            width: 837px;
+            height: 105px;
+            margin-top: 10px;
+            background-color: rgb(245,248,250);
+        }
+        .contentboxfooterz{
+            /* margin-top: 20px; */
+
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+            <header class="headertext">Prin utilizarea serviciilor Twitter, ești de acord cu <a href="#">Utilizarea modulelor cookie</a>. Noi și partenerii noștri operăm la nivel global și utilizăm modulele cookie inclusiv pentru analiză,
+            <br> personalizare și reclame.
+            </header>
+    </header>
+    <nav class="nav">
+        <nav class="navcontent">
+            <span><a class="home" href="#">Home</a><span>
+            <span><a class="about" href="#">About</a><span>
+            <span><a class="logout" href="#">Log Out</a><span>
+        </nav>
+    </nav>
+    <div class="contentbox">
+        <div class="box1">
+            <p style="color:white;">x</p>
+            <h1 class="contentboxtitle" style="font-size:24px;">Log in to Twitter</h1>
+            <input class="input1" type="text" placeholder="Phone, E-mail or Username">
+            <br>
+            <br>
+            <input class="input2" type="password" placeholder="Password" style="margin-left:100px;">
+            <br>
+            <button class="btn1"><a href="#" style="text-decoration:none; color:white">Log in</a></button>
+            <input type="checkbox" checked="checked"> Remember Me - <a href="#">Forgot Password?</a>
+            <footer class="contentboxfooter">
+                    <footer class="contentboxfooterz">
+                        <br>
+                        <p style="margin-left:100px; margin-top: -9px;">New to twitter?<a href="#"> Sign up now>></a></p>
+                        <p style="margin-left:100px;">Already using Twitter via text message? <a href=#>Activate your account>></a></p>
+                    </footer>
+            </footer>
+            <!-- <a href="#" style="text-decoration:none; color:white"><button class="btn1">Log in</button></a> -->
+        </div>
+   </div>
+
+</body>
+</html>
